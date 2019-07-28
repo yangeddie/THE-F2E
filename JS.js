@@ -10,6 +10,7 @@ var dropping;
 var parents;
 
 function perducePlaceCard() {
+    alert("因本菜雞不會使用GITHUB演示網頁(圖片無法載入) 麻煩請下載進電腦中開啟 SORRY");
     cardList.length = 8;
     for (var i = 0; i < 8; i++) {
         var t = new Array();
