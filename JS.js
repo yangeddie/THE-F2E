@@ -67,7 +67,7 @@ function Licensing() {
         for (var j = 0; j < 7; j++, k++) {
             //            cardList[i][j] = randomCard[k];
             var tempElement = document.createElement("div");
-            var str = "url(./image/cards/" + randomCard[k] + ".svg)";
+            var str = "url(image/cards/" + randomCard[k] + ".svg)";
             $(tempElement).css({
                 "background-image": str
             });
@@ -84,7 +84,7 @@ function Licensing() {
         for (var j = 0; j < 6; j++, k++) {
             //            cardList[i][j] = randomCard[k];
             var tempElement = document.createElement("div");
-            var str = "url(./image/cards/" + randomCard[k] + ".svg)";
+            var str = "url(image/cards/" + randomCard[k] + ".svg)";
             $(tempElement).css({
                 "background-image": str
             });
@@ -105,7 +105,7 @@ function drop(tempElement) {
         start: function () {
             var parent = $(this).parent("*");
             console.log(parent.attr("id"));
-            parent.droppable({
+            parent.droppable({ 
                 drop: function () {
                     dropping = $(this).attr("id");
 //                    $(this).droppable('disable');

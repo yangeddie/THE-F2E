@@ -86,7 +86,7 @@ logo{
 #timer:before{
     position: absolute;
     left: -30px;
-    content: url(./image/baseline-access_time-24px.svg);
+    content: url(image/baseline-access_time-24px.svg);
 }
 .placeCard{
     position: absolute;
