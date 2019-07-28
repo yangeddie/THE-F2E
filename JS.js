@@ -1,7 +1,8 @@
 $(document).ready(() => {
+    alert("因本菜雞不會使用GITHUB演示網頁(圖片無法載入) 麻煩請下載進電腦中開啟 SORRY");
     perducePlaceCard();
     Licensing();
-    alert("因本菜雞不會使用GITHUB演示網頁(圖片無法載入) 麻煩請載進電腦中開啟 SORRY");
+    
 })
 
 var cardList = new Array();
